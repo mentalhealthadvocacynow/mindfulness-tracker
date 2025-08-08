@@ -22,6 +22,12 @@ const Index = () => {
         <Button asChild className="w-full" size="lg" variant="outline">
           <Link to="/progress">Progress & Tips</Link>
         </Button>
+        <Button asChild className="w-full" size="lg" variant="secondary">
+          <Link to="/gratitude">Gratitude Journal</Link>
+        </Button>
+        <Button asChild className="w-full" size="lg" variant="outline">
+          <Link to="/boost">Quick Boost</Link>
+        </Button>
       </div>
 
       <MadeWithDyad />

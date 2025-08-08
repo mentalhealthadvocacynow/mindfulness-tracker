@@ -8,6 +8,9 @@ import NotFound from "./pages/NotFound";
 import DailyCheckIn from "./pages/DailyCheckIn";
 import MicroMeditations from "./pages/MicroMeditations";
 import ProgressTips from "./pages/ProgressTips";
+import GratitudeJournal from "./pages/GratitudeJournal";
+import GratitudeReflection from "./pages/GratitudeReflection";
+import QuickBoost from "./pages/QuickBoost";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +25,9 @@ const App = () => (
           <Route path="/check-in" element={<DailyCheckIn />} />
           <Route path="/meditations" element={<MicroMeditations />} />
           <Route path="/progress" element={<ProgressTips />} />
+          <Route path="/gratitude" element={<GratitudeJournal />} />
+          <Route path="/reflection" element={<GratitudeReflection />} />
+          <Route path="/boost" element={<QuickBoost />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
