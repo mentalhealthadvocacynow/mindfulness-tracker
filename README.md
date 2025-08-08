@@ -18,10 +18,9 @@ Mindful Moments is a minimalist web-based application designed to support mental
 ## Installation
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/mentalhealthadvocacynow/mindful-moments.git
+   git clone https://github.com/mentalhealthadvocacynow/mindfulness-tracker.git
    ```
-2. Open `index.html` in a web browser to run the app locally.
-3. Ensure an internet connection for Tailwind CSS CDN.
+2. Ensure an internet connection for Tailwind CSS CDN.
 
 ## Usage
 - **Page 1: Daily Check-In**
